@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>StarNotary DAPP</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  </head>
+  <style>
+    input {
+      display: block;
+      margin-bottom: 12px;
+    }
+  </style>
+  <body>
+    <h1>StarNotary Token DAPP</h1>
+
+    <hr>
+
+    <br>
+      <h1>Create a Star</h1>
+      <br><label for="starName">Star Name:</label><input type="text" id="starName"></input>
+      <br><label for="starId">Star ID:</label><input type="number" id="starId"></input>
+      <br><br><button id="createStar" onclick="App.createStar()">Create Star</button>
+      <br>
+      <hr>
+      <br>
+      <h1>Look up a Star</h1>
+      <br><label for="name">Star ID:</label><input type="text" id="lookid"></input>
+      <br><br><button onclick="App.lookUp()">Look Up a Star</button>
+      <hr>
+      <h1>Exchange Stars</h1>
+      <br><label for="starId1">Star ID 1:</label><input type="number" id="star1"></input>
+      <br><label for="starId2">Star ID 2:</label><input type="number" id="star2"></input>
+      <br><br><button onclick="App.exchangeStars()">Exchange</button>
+      <hr>
+      <br>
+      <h1>Transfer Star</h1>
+      <br><label for="starId1">Star ID:</label><input type="number" id="star"></input>
+      <br><label for="address">Address to:</label><input type="text" id="address"></input>
+      <br><br><button onclick="App.transferStar()">Exchange</button>
+      <hr>
+      <br>
+      <h1>Lookup Owner</h1>
+      <br><label for="lookUp">Star ID:</label><input type="number" id="lookUp"></input>
+      <br><br><button onclick="App.lookUpAddress()">Lookup</button>
+      <span id="status"></span>
+      <br>
+    <script src="index.js"></script>
+  </body>
+</html>
