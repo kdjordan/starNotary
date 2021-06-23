@@ -1,8 +1,8 @@
-##UDACITY STAR NOTARY PROJECT
+## UDACITY STAR NOTARY PROJECT
 
 Purpose of this project is to practice creating and deploying a smart contract with a token to both a local netwoork and the Rinkeby network.
 
-#SUBMISSION DETAILS 
+# SUBMISSION DETAILS 
 Specify the Truffle version and OpenZeppelin version used in the project.
 openzeppelin-solidity >> 2.3
 Truffle >> v5.3.10
